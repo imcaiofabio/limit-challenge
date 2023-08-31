@@ -40,19 +40,23 @@ class XMLConversionTestCase(TestCase):
                 "Root": [
                     {
                         "Address": [
-                            {"StreetLine1": "123 Main St."},
-                            {"StreetLine2": "Suite 400"},
-                            {"City": "San Francisco"},
-                            {"State": "CA"},
-                            {"PostCode": "94103"},
+                            {
+                                "StreetLine1": "123 Main St.",
+                                "StreetLine2": "Suite 400",
+                                "City": "San Francisco",
+                                "State": "CA",
+                                "PostCode": "94103"
+                            },
                         ]
                     },
                     {
                         "Address": [
-                            {"StreetLine1": "400 Market St."},
-                            {"City": "San Francisco"},
-                            {"State": "CA"},
-                            {"PostCode": "94108"},
+                            {
+                                "StreetLine1": "400 Market St.",
+                                "City": "San Francisco",
+                                "State": "CA",
+                                "PostCode": "94108"
+                            },
                         ]
                     },
                 ],
